@@ -79,9 +79,9 @@ This is a monorepo containing:
 
 | Package | Description | Version |
 |---------|-------------|---------|
-| [@neuraform/core](./packages/core) | Framework-agnostic form engine | ![npm](https://img.shields.io/npm/v/@neuraform/core) |
-| [@neuraform/react](./packages/react) | React hooks and components | ![npm](https://img.shields.io/npm/v/@neuraform/react) |
-| [@neuraform/visualizer](./packages/visualizer) | Visual form flow designer | ![npm](https://img.shields.io/npm/v/@neuraform/visualizer) |
+| [@neuraform/core](https://github.com/Mehulbirare/neura-form/tree/main/packages/core) | Framework-agnostic form engine | ![npm](https://img.shields.io/npm/v/@neuraform/core) |
+| [@neuraform/react](https://github.com/Mehulbirare/neura-form/tree/main/packages/react) | React hooks and components | ![npm](https://img.shields.io/npm/v/@neuraform/react) |
+| [@neuraform/visualizer](https://github.com/Mehulbirare/neura-form/tree/main/packages/visualizer) | Visual form flow designer | ![npm](https://img.shields.io/npm/v/@neuraform/visualizer) |
 
 ## 🏁 Quick Start
 
@@ -146,18 +146,18 @@ npx @neuraform/visualizer
 
 ## 📚 Documentation
 
-- [Core Concepts](./docs/core-concepts.md)
-- [API Reference](./docs/api-reference.md)
-- [React Guide](./packages/react/README.md)
-- [Examples](./examples)
+- [Core Concepts](https://github.com/Mehulbirare/neura-form/blob/main/docs/core-concepts.md)
+- [API Reference](https://github.com/Mehulbirare/neura-form/blob/main/docs/api-reference.md)
+- [React Guide](https://github.com/Mehulbirare/neura-form/blob/main/packages/react/README.md)
+- [Examples](https://github.com/Mehulbirare/neura-form/tree/main/examples)
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md).
+We welcome contributions! Please see our [Contributing Guide](https://github.com/Mehulbirare/neura-form/blob/main/CONTRIBUTING.md).
 
 ## 📄 License
 
-MIT © [Your Name](https://github.com/yourusername)
+MIT © [Mehul Birare](https://github.com/Mehulbirare)
 
 ## 🌟 Why NeuraForm?
 
