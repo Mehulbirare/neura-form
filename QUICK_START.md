@@ -35,7 +35,7 @@ Update the following in all `package.json` files:
 ```bash
 cd c:\Users\mehul\Projects\neuraform
 git add .
-git commit -m "Initial commit: React Form Atlas v1.0.0"
+git commit -m "Initial commit: React Form Atlas v1.2.0"
 ```
 
 ### 4. Create GitHub Repository
