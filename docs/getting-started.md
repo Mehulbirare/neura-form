@@ -70,6 +70,7 @@ export const onboardingSchema = {
 
 ### Step 2: Build Your Form (React)
 
+{% raw %}
 ```tsx
 import { useReactForm } from 'react-form-atlas';
 import { onboardingSchema } from './schema';
@@ -172,6 +173,7 @@ function OnboardingForm() {
   );
 }
 ```
+{% endraw %}
 
 ### Step 3: Add Styling
 
