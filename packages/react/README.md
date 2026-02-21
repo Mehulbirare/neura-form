@@ -8,7 +8,7 @@
 ## 📦 Installation
 
 ```bash
-npm install react-form-atlas-engine react-form-atlas
+npm i react-form-atlas
 ```
 
 ## ⚡ Quick Start

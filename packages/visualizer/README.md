@@ -5,16 +5,6 @@
 
 **See Your Form Logic.** Generate beautiful flowcharts and insightful statistics from your React Form Atlas schemas.
 
-## 📦 Installation
-
-```bash
-# Install globally
-npm install -g react-form-atlas-visualizer
-
-# Or run directly with npx
-npx react-form-atlas-visualizer my-schema.json
-```
-
 ## ⚡ Quick Start
 
 1.  **Paste your schema** into our live playground (Coming Soon) or use the CLI:

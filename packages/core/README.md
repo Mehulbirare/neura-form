@@ -29,11 +29,6 @@ graph LR
 | **Progress** | `Step / Total` (Inaccurate) | Weighted Path Calculation |
 | **Validation** | Field-level only | Predictive Path Validation |
 
-## 📦 Installation
-
-```bash
-npm install react-form-atlas-engine
-```
 
 ## ⚡ Quick Start
 
