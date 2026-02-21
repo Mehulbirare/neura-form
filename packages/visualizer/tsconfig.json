@@ -1,8 +1,14 @@
 {
     "extends": "../core/tsconfig.json",
     "compilerOptions": {
-        "rootDir": "./src",
-        "outDir": "./dist"
+        "rootDir": "..",
+        "outDir": "./dist",
+        "baseUrl": ".",
+        "paths": {
+            "react-form-atlas-engine": [
+                "../core/src/index.ts"
+            ]
+        }
     },
     "include": [
         "src/**/*"
@@ -12,6 +18,3 @@
         "dist"
     ]
 }
-
-
-

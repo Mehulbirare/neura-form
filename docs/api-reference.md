@@ -1,6 +1,6 @@
 # API Reference
 
-## react-form-engine
+## react-form-atlas-engine
 
 ### FormEngine
 
@@ -15,7 +15,7 @@ new FormEngine(options: FormEngineOptions)
 **Options:**
 - `schema: FormSchema` - The form schema (required)
 - `autoSave?: boolean` - Enable auto-save (default: false)
-- `storageKey?: string` - Custom storage key (default: 'React Form-state')
+- `storageKey?: string` - Custom storage key (default: 'React Form Atlas-state')
 - `onStepChange?: (event: StepChangeEvent) => void` - Step change callback
 - `onComplete?: (context: FormContext) => void` - Completion callback
 - `onError?: (error: Error) => void` - Error callback
@@ -182,11 +182,11 @@ interface ValidationRule {
 
 ---
 
-## react-form-bridge
+## react-form-atlas
 
 ### useReactForm
 
-React hook for React Form.
+React hook for React Form Atlas.
 
 ```typescript
 function useReactForm(options: useReactFormOptions): useReactFormReturn
@@ -230,7 +230,7 @@ const {
 
 ---
 
-## react-form-visualizer
+## react-form-atlas-visualizer
 
 ### SchemaVisualizer
 
@@ -268,7 +268,7 @@ const stats = SchemaVisualizer.getStats(schema);
 ### CLI
 
 ```bash
-React Form-visualizer <schema-file> [options]
+React Form Atlas-visualizer <schema-file> [options]
 
 Options:
   -o, --output <file>    Output HTML file
@@ -277,7 +277,7 @@ Options:
 
 **Example:**
 ```bash
-React Form-visualizer schema.json -o visualization.html
+React Form Atlas-visualizer schema.json -o visualization.html
 ```
 
 

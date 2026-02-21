@@ -1,22 +1,22 @@
-# react-form-bridge
+# react-form-atlas
 
-[![npm version](https://img.shields.io/npm/v/react-form-bridge.svg?style=flat-square)](https://www.npmjs.com/package/react-form-bridge)
+[![npm version](https://img.shields.io/npm/v/react-form-atlas.svg?style=flat-square)](https://www.npmjs.com/package/react-form-atlas)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-**Official React Hooks for React Form.** Build complex branching forms with simple hooks.
+**Official React Hooks for React Form Atlas.** Build complex branching forms with simple hooks.
 
 ## 📦 Installation
 
 ```bash
-npm install react-form-engine react-form-bridge
+npm install react-form-atlas-engine react-form-atlas
 ```
 
 ## ⚡ Quick Start
 
-[![Try on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/vitejs-vite-react-ts?file=src%2FApp.tsx&dependencies=react-form-bridge,react-form-engine)
+[![Try on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/vitejs-vite-react-ts?file=src%2FApp.tsx&dependencies=react-form-atlas,react-form-atlas-engine)
 
 ```tsx
-import { useReactForm } from 'react-form-bridge';
+import { useReactForm } from 'react-form-atlas';
 
 // Define your map
 const schema = {
@@ -81,7 +81,7 @@ export default function MyForm() {
 | :--- | :--- | :--- |
 | `schema` | `object` | **Required.** The graph definition. |
 | `autoSave` | `boolean` | Enable IndexedDB persistence (Default: `false`). |
-| `storageKey` | `string` | Unique key for storage (Default: `'React Form'`). |
+| `storageKey` | `string` | Unique key for storage (Default: `'React Form Atlas'`). |
 | `onComplete` | `func` | Callback when a final state is reached. |
 
 #### Returns
@@ -98,8 +98,8 @@ export default function MyForm() {
 
 MIT © [Mehul Birare](https://github.com/Mehulbirare)
 ```tsx
-import { useReactForm } from 'react-form-bridge';
-import type { FormSchema } from 'react-form-engine';
+import { useReactForm } from 'react-form-atlas';
+import type { FormSchema } from 'react-form-atlas-engine';
 
 const schema: FormSchema = {
   id: 'onboarding',

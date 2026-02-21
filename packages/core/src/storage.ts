@@ -8,7 +8,7 @@ export class StorageAdapter {
     private storageKey: string;
     private useIndexedDB: boolean;
 
-    constructor(storageKey: string = 'React Form-state') {
+    constructor(storageKey: string = 'React Form Atlas-state') {
         this.storageKey = storageKey;
         this.useIndexedDB = typeof indexedDB !== 'undefined';
     }

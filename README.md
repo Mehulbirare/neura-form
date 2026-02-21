@@ -20,20 +20,20 @@
 ╚═══════════════════════════════════════════════════════════╝
 ```
 
-# 🧠 React Form
+# 🧠 React Form Atlas
 
 ### Next-Generation Graph-Based Form Engine
 
-[![npm version](https://img.shields.io/npm/v/react-form-engine?style=for-the-badge&color=cc3534&logo=npm)](https://www.npmjs.com/package/react-form-engine)
+[![npm version](https://img.shields.io/npm/v/react-form-atlas-engine?style=for-the-badge&color=cc3534&logo=npm)](https://www.npmjs.com/package/react-form-atlas-engine)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/Mehulbirare/react-form/ci.yml?style=for-the-badge&logo=github)](https://github.com/Mehulbirare/react-form/actions)
 [![codecov](https://img.shields.io/codecov/c/github/Mehulbirare/react-form?style=for-the-badge&logo=codecov)](https://codecov.io/gh/Mehulbirare/react-form)
 
-[![npm downloads](https://img.shields.io/npm/dm/react-form-engine?style=flat-square&logo=npm)](https://www.npmjs.com/package/react-form-engine)
+[![npm downloads](https://img.shields.io/npm/dm/react-form-atlas-engine?style=flat-square&logo=npm)](https://www.npmjs.com/package/react-form-atlas-engine)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/react-form)
-[![Twitter Follow](https://img.shields.io/twitter/follow/React Form?style=flat-square&logo=twitter)](https://twitter.com/react-form)
+[![Twitter Follow](https://img.shields.io/twitter/follow/React Form Atlas?style=flat-square&logo=twitter)](https://twitter.com/react-form)
 
 [🚀 Getting Started](#-quick-start) • [📖 Documentation](https://react-form.dev/docs) • [🎮 Live Demo](https://demo.react-form.dev) • [💬 Discord](https://discord.gg/react-form) • [🐛 Report Bug](https://github.com/Mehulbirare/react-form/issues) • [✨ Request Feature](https://github.com/Mehulbirare/react-form/issues)
 
@@ -45,7 +45,7 @@
 
 - [Overview](#-overview)
 - [Features](#-features)
-- [Why React Form?](#-why-React Form)
+- [Why React Form Atlas?](#-why-React Form Atlas)
 - [Quick Start](#-quick-start)
 - [Packages](#-packages)
 - [Core Concepts](#-core-concepts)
@@ -65,7 +65,7 @@
 
 ## 🎯 Overview
 
-**React Form** is a revolutionary form management library that treats complex, multi-step forms as navigable graphs. By modeling your forms as **Finite State Machines (FSM)** with **Directed Acyclic Graph (DAG)** navigation, React Form eliminates the chaos of conditional logic and provides predictable, testable, and maintainable form flows.
+**React Form Atlas** is a revolutionary form management library that treats complex, multi-step forms as navigable graphs. By modeling your forms as **Finite State Machines (FSM)** with **Directed Acyclic Graph (DAG)** navigation, React Form Atlas eliminates the chaos of conditional logic and provides predictable, testable, and maintainable form flows.
 
 > **Eliminate "Condition Hell" — Build forms that scale from 5 to 500 steps without breaking a sweat.**
 
@@ -132,7 +132,7 @@ cd my-form-app && npm start
 
 ---
 
-## 🤔 Why React Form?
+## 🤔 Why React Form Atlas?
 
 ### The Problem: Traditional Form Complexity
 
@@ -166,7 +166,7 @@ function handleNext() {
 - ❌ **No Visibility:** Impossible to visualize the flow
 - ❌ **Merge Conflicts:** Team collaboration nightmare
 
-### The React Form Solution
+### The React Form Atlas Solution
 
 ```tsx
 // ✅ Declarative, visual, maintainable
@@ -208,25 +208,25 @@ const { currentStep, transition, progress } = useReactForm({ schema });
 
 ```bash
 # npm
-npm install react-form-engine react-form-bridge
+npm install react-form-atlas-engine react-form-atlas
 
 # yarn
-yarn add react-form-engine react-form-bridge
+yarn add react-form-atlas-engine react-form-atlas
 
 # pnpm
-pnpm add react-form-engine react-form-bridge
+pnpm add react-form-atlas-engine react-form-atlas
 
 # bun
-bun add react-form-engine react-form-bridge
+bun add react-form-atlas-engine react-form-atlas
 ```
 
 ### Basic Example
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/React Form-quickstart)
-[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://codesandbox.io/s/React Form-quickstart)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/React Form Atlas-quickstart)
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://codesandbox.io/s/React Form Atlas-quickstart)
 
 ```tsx
-import { useReactForm } from 'react-form-bridge';
+import { useReactForm } from 'react-form-atlas';
 
 const onboardingSchema = {
   id: 'user-onboarding',
@@ -340,17 +340,17 @@ export default function OnboardingFlow() {
 
 ## 📦 Packages
 
-React Form is architected as a modular monorepo, allowing you to install only what you need.
+React Form Atlas is architected as a modular monorepo, allowing you to install only what you need.
 
 | Package | Version | Size | Description |
 |---------|---------|------|-------------|
-| **[react-form-engine](./packages/core)** | [![npm](https://img.shields.io/npm/v/react-form-engine?style=flat-square)](https://www.npmjs.com/package/react-form-engine) | ![size](https://img.shields.io/bundlephobia/minzip/react-form-engine?style=flat-square) | Framework-agnostic state machine engine |
-| **[react-form-bridge](./packages/react)** | [![npm](https://img.shields.io/npm/v/react-form-bridge?style=flat-square)](https://www.npmjs.com/package/react-form-bridge) | ![size](https://img.shields.io/bundlephobia/minzip/react-form-bridge?style=flat-square) | React hooks and components |
+| **[react-form-atlas-engine](./packages/core)** | [![npm](https://img.shields.io/npm/v/react-form-atlas-engine?style=flat-square)](https://www.npmjs.com/package/react-form-atlas-engine) | ![size](https://img.shields.io/bundlephobia/minzip/react-form-atlas-engine?style=flat-square) | Framework-agnostic state machine engine |
+| **[react-form-atlas](./packages/react)** | [![npm](https://img.shields.io/npm/v/react-form-atlas?style=flat-square)](https://www.npmjs.com/package/react-form-atlas) | ![size](https://img.shields.io/bundlephobia/minzip/react-form-atlas?style=flat-square) | React hooks and components |
 | **[react-form-vue](./packages/vue)** | [![npm](https://img.shields.io/npm/v/react-form-vue?style=flat-square)](https://www.npmjs.com/package/react-form-vue) | ![size](https://img.shields.io/bundlephobia/minzip/react-form-vue?style=flat-square) | Vue 3 composables |
 | **[react-form-svelte](./packages/svelte)** | [![npm](https://img.shields.io/npm/v/react-form-svelte?style=flat-square)](https://www.npmjs.com/package/react-form-svelte) | ![size](https://img.shields.io/bundlephobia/minzip/react-form-svelte?style=flat-square) | Svelte stores and actions |
 | **[react-form-angular](./packages/angular)** | [![npm](https://img.shields.io/npm/v/react-form-angular?style=flat-square)](https://www.npmjs.com/package/react-form-angular) | ![size](https://img.shields.io/bundlephobia/minzip/react-form-angular?style=flat-square) | Angular services and directives |
 | **[react-form-validator](./packages/validator)** | [![npm](https://img.shields.io/npm/v/react-form-validator?style=flat-square)](https://www.npmjs.com/package/react-form-validator) | ![size](https://img.shields.io/bundlephobia/minzip/react-form-validator?style=flat-square) | Schema validation with Zod/Yup integration |
-| **[react-form-visualizer](./packages/visualizer)** | [![npm](https://img.shields.io/npm/v/react-form-visualizer?style=flat-square)](https://www.npmjs.com/package/react-form-visualizer) | ![size](https://img.shields.io/bundlephobia/minzip/react-form-visualizer?style=flat-square) | CLI tool to generate flowcharts |
+| **[react-form-atlas-visualizer](./packages/visualizer)** | [![npm](https://img.shields.io/npm/v/react-form-atlas-visualizer?style=flat-square)](https://www.npmjs.com/package/react-form-atlas-visualizer) | ![size](https://img.shields.io/bundlephobia/minzip/react-form-atlas-visualizer?style=flat-square) | CLI tool to generate flowcharts |
 | **[react-form-devtools](./packages/devtools)** | [![npm](https://img.shields.io/npm/v/react-form-devtools?style=flat-square)](https://www.npmjs.com/package/react-form-devtools) | ![size](https://img.shields.io/bundlephobia/minzip/react-form-devtools?style=flat-square) | Browser extension for debugging |
 | **[react-form-persistence](./packages/persistence)** | [![npm](https://img.shields.io/npm/v/react-form-persistence?style=flat-square)](https://www.npmjs.com/package/react-form-persistence) | ![size](https://img.shields.io/bundlephobia/minzip/react-form-persistence?style=flat-square) | Advanced storage adapters (IndexedDB, Firebase, etc.) |
 
@@ -360,7 +360,7 @@ React Form is architected as a modular monorepo, allowing you to install only wh
 
 ### 1. Graph-Based Navigation
 
-React Form models forms as **Directed Acyclic Graphs (DAG)**, where each step is a node and transitions are edges.
+React Form Atlas models forms as **Directed Acyclic Graphs (DAG)**, where each step is a node and transitions are edges.
 
 ```mermaid
 graph TD
@@ -387,7 +387,7 @@ graph TD
 
 ### 2. Finite State Machine
 
-At its core, React Form uses FSM principles to ensure your form is always in a valid, predictable state.
+At its core, React Form Atlas uses FSM principles to ensure your form is always in a valid, predictable state.
 
 ```tsx
 const schema = {
@@ -586,7 +586,7 @@ Create complex surveys with skip logic and branching questions.
 
 ## 🏗️ Architecture
 
-React Form follows a clean, modular architecture:
+React Form Atlas follows a clean, modular architecture:
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -598,7 +598,7 @@ React Form follows a clean, modular architecture:
           └──────────┬──────────┘
                      │
           ┌──────────┴──────────┐
-          │   React Form Core    │  (State Machine Engine)
+          │   React Form Atlas Core    │  (State Machine Engine)
           └──────────┬──────────┘
                      │
     ┌────────────────┼────────────────┐
@@ -639,7 +639,7 @@ Validation:
 
 ## 🎯 Use Cases
 
-React Form excels in these scenarios:
+React Form Atlas excels in these scenarios:
 
 | Industry | Use Case | Complexity | Demo |
 |----------|----------|------------|------|
@@ -655,7 +655,7 @@ React Form excels in these scenarios:
 
 ## 🔧 Configuration Options
 
-React Form is highly configurable to match your needs:
+React Form Atlas is highly configurable to match your needs:
 
 ```typescript
 const config = {
@@ -753,9 +753,9 @@ const {
 ### Core API (Framework-Agnostic)
 
 ```tsx
-import { createReact Form } from 'react-form-engine';
+import { createReact Form Atlas } from 'react-form-atlas-engine';
 
-const machine = createReact Form({
+const machine = createReact Form Atlas({
   schema,
   initialContext,
   actions,
@@ -779,7 +779,7 @@ const state = machine.getState();
 ### Schema Definition
 
 ```tsx
-interface React FormSchema {
+interface React Form AtlasSchema {
   id?: string;
   initial: string;
   context?: Record<string, any>;
@@ -846,13 +846,13 @@ Browse the [Plugin Marketplace](https://react-form.dev/plugins) for community-co
 
 ## ⚡ Performance
 
-React Form is optimized for both bundle size and runtime performance.
+React Form Atlas is optimized for both bundle size and runtime performance.
 
 ### Bundle Size
 
 ```
-react-form-engine     ~8KB  (gzipped)
-react-form-bridge    ~3KB  (gzipped)
+react-form-atlas-engine     ~8KB  (gzipped)
+react-form-atlas    ~3KB  (gzipped)
 Total               ~11KB (gzipped)
 ```
 
@@ -889,7 +889,7 @@ Compare with alternatives:
 | iOS Safari | ≥ 14 |
 | Chrome Android | ≥ 90 |
 
-**Polyfills:** React Form uses modern JavaScript features. For older browsers, include:
+**Polyfills:** React Form Atlas uses modern JavaScript features. For older browsers, include:
 - Promise
 - Map/Set
 - Proxy
@@ -908,7 +908,7 @@ const formik = useFormik({
   onSubmit: values => { /* ... */ }
 });
 
-// After (React Form)
+// After (React Form Atlas)
 const { context, updateContext } = useReactForm({
   schema: mySchema,
   initialContext: { name: '', email: '' },
@@ -922,7 +922,7 @@ const { context, updateContext } = useReactForm({
 // Before (React Hook Form)
 const { register, handleSubmit } = useForm();
 
-// After (React Form)
+// After (React Form Atlas)
 const { context, updateContext, transition } = useReactForm({
   schema: mySchema
 });
@@ -1010,8 +1010,8 @@ Join our growing community of developers!
 - 🐦 **[Twitter](https://twitter.com/react-form)** — Follow for updates and tips
 - 📧 **[Newsletter](https://react-form.dev/newsletter)** — Monthly updates and tutorials
 - 📝 **[Blog](https://react-form.dev/blog)** — Deep dives and case studies
-- 🎥 **[YouTube](https://youtube.com/@React Form)** — Video tutorials and demos
-- 💼 **[LinkedIn](https://linkedin.com/company/React Form)** — Professional updates
+- 🎥 **[YouTube](https://youtube.com/@React Form Atlas)** — Video tutorials and demos
+- 💼 **[LinkedIn](https://linkedin.com/company/React Form Atlas)** — Professional updates
 
 ### 👥 Core Team
 
@@ -1065,11 +1065,11 @@ We appreciate every contribution, big or small! Join our list of contributors:
 
 ## 💖 Sponsors
 
-React Form is an MIT-licensed open source project. Development is made possible by our sponsors:
+React Form Atlas is an MIT-licensed open source project. Development is made possible by our sponsors:
 
 ### 🥇 Gold Sponsors ($500+/month)
 
-Support React Form's development and get your company featured here!
+Support React Form Atlas's development and get your company featured here!
 
 ### 🥈 Silver Sponsors ($250+/month)
 
@@ -1089,7 +1089,7 @@ Every contribution matters! Join our sponsors today.
 
 ## 🙏 Acknowledgments
 
-React Form is inspired by:
+React Form Atlas is inspired by:
 - [XState](https://xstate.js.org/) — Finite state machines
 - [React Router](https://reactrouter.com/) — Navigation paradigms
 - [Formik](https://formik.org/) — Form management
@@ -1100,9 +1100,9 @@ Special thanks to the open-source community for making this possible!
 
 ## 📊 Detailed Comparison
 
-### React Form vs. Alternatives
+### React Form Atlas vs. Alternatives
 
-| Feature | React Form | Formik | React Hook Form | Redux Form | Final Form |
+| Feature | React Form Atlas | Formik | React Hook Form | Redux Form | Final Form |
 |---------|-----------|--------|-----------------|------------|------------|
 | **Multi-step Forms** | ✅ Native | 🟡 Manual | 🟡 Manual | 🟡 Manual | 🟡 Manual |
 | **State Machine** | ✅ Built-in | ❌ | ❌ | ❌ | ❌ |
@@ -1117,9 +1117,9 @@ Special thanks to the open-source community for making this possible!
 | **Learning Curve** | Medium | Low | Low | High | Medium |
 | **Best For** | Multi-step | Simple | Performance | Legacy | Balance |
 
-### When to Use React Form
+### When to Use React Form Atlas
 
-✅ **Use React Form when:**
+✅ **Use React Form Atlas when:**
 - Building multi-step forms (3+ steps)
 - Need conditional branching logic
 - Want visual flow documentation
@@ -1128,7 +1128,7 @@ Special thanks to the open-source community for making this possible!
 - Building surveys or wizards
 - Complex user journeys
 
-❌ **Don't use React Form when:**
+❌ **Don't use React Form Atlas when:**
 - Single-page forms with many fields
 - Simple contact forms
 - Performance is critical over features
@@ -1157,11 +1157,11 @@ Special thanks to the open-source community for making this possible!
 
 ### Testimonials
 
-> "React Form transformed our onboarding process. What used to take 2 weeks to build now takes 2 days. The visual schema makes it easy for our product team to understand and modify flows without touching code."
+> "React Form Atlas transformed our onboarding process. What used to take 2 weeks to build now takes 2 days. The visual schema makes it easy for our product team to understand and modify flows without touching code."
 > 
 > **— Sarah Chen, Engineering Lead @ TechCorp**
 
-> "We handle complex loan applications with 50+ conditional steps. React Form's state machine approach gave us confidence that our logic was bulletproof. Zero production issues in 6 months."
+> "We handle complex loan applications with 50+ conditional steps. React Form Atlas's state machine approach gave us confidence that our logic was bulletproof. Zero production issues in 6 months."
 >
 > **— Michael Rodriguez, Senior Dev @ FinanceApp**
 
@@ -1174,31 +1174,31 @@ Special thanks to the open-source community for making this possible!
 ## ❓ Frequently Asked Questions
 
 <details>
-<summary><b>How does React Form compare to Formik or React Hook Form?</b></summary>
+<summary><b>How does React Form Atlas compare to Formik or React Hook Form?</b></summary>
 
-React Form is fundamentally different. While Formik and RHF focus on field-level validation and state management, React Form models your entire form as a state machine with graph-based navigation. Use React Form for multi-step, conditional forms. Use Formik/RHF for single-page forms with many fields.
+React Form Atlas is fundamentally different. While Formik and RHF focus on field-level validation and state management, React Form Atlas models your entire form as a state machine with graph-based navigation. Use React Form Atlas for multi-step, conditional forms. Use Formik/RHF for single-page forms with many fields.
 
 **Comparison:**
-- **React Form**: Multi-step flows, conditional branching, complex navigation
+- **React Form Atlas**: Multi-step flows, conditional branching, complex navigation
 - **Formik/RHF**: Single-page forms, field validation, simple submit flows
 </details>
 
 <details>
-<summary><b>Can I use React Form with my existing form library?</b></summary>
+<summary><b>Can I use React Form Atlas with my existing form library?</b></summary>
 
-Absolutely! React Form handles flow logic and navigation. You can still use Formik, RHF, or any validation library for individual step validation. Many users combine `react-form-bridge` + `react-hook-form` for the best of both worlds.
+Absolutely! React Form Atlas handles flow logic and navigation. You can still use Formik, RHF, or any validation library for individual step validation. Many users combine `react-form-atlas` + `react-hook-form` for the best of both worlds.
 </details>
 
 <details>
-<summary><b>Does React Form work with TypeScript?</b></summary>
+<summary><b>Does React Form Atlas work with TypeScript?</b></summary>
 
-Yes! React Form is written in TypeScript and provides full type safety. Your schemas, context, and events are all typed, giving you autocomplete and compile-time error checking.
+Yes! React Form Atlas is written in TypeScript and provides full type safety. Your schemas, context, and events are all typed, giving you autocomplete and compile-time error checking.
 </details>
 
 <details>
 <summary><b>How do I handle authentication in multi-step forms?</b></summary>
 
-React Form supports "guarded transitions" where you can check authentication state before allowing users to proceed:
+React Form Atlas supports "guarded transitions" where you can check authentication state before allowing users to proceed:
 
 ```typescript
 const schema = {
@@ -1223,13 +1223,13 @@ const guards = {
 <details>
 <summary><b>Can I use this in production?</b></summary>
 
-Yes! React Form is stable and used in production by 200+ companies. We maintain 100% test coverage and follow semantic versioning. The API is stable and we're committed to backward compatibility.
+Yes! React Form Atlas is stable and used in production by 200+ companies. We maintain 100% test coverage and follow semantic versioning. The API is stable and we're committed to backward compatibility.
 </details>
 
 <details>
 <summary><b>What's the bundle size impact?</b></summary>
 
-React Form Core is ~8KB gzipped. With React bindings, the total is ~11KB. This is smaller than most form libraries because we handle navigation logic declaratively rather than imperatively.
+React Form Atlas Core is ~8KB gzipped. With React bindings, the total is ~11KB. This is smaller than most form libraries because we handle navigation logic declaratively rather than imperatively.
 </details>
 
 <details>
@@ -1261,7 +1261,7 @@ const { currentStep, transition } = useReactForm({ schema: schemaFromAPI });
 <details>
 <summary><b>Does it support internationalization (i18n)?</b></summary>
 
-React Form doesn't dictate how you handle i18n. Store translations in the `meta` field of each state and use your preferred i18n library (react-i18next, FormatJS, etc.) in your components.
+React Form Atlas doesn't dictate how you handle i18n. Store translations in the `meta` field of each state and use your preferred i18n library (react-i18next, FormatJS, etc.) in your components.
 </details>
 
 ---
@@ -1281,7 +1281,7 @@ React Form doesn't dictate how you handle i18n. Store translations in the `meta`
 - 🔐 [Handling Sensitive Data](https://react-form.dev/blog/security)
 
 ### Video Content
-- 🎥 [React Form in 5 Minutes](https://youtube.com/react-form-quickstart)
+- 🎥 [React Form Atlas in 5 Minutes](https://youtube.com/react-form-quickstart)
 - 🎬 [Complete Course: Advanced Forms](https://youtube.com/react-form-course)
 - 🛠️ [Workshop: E-Commerce Checkout](https://youtube.com/react-form-workshop)
 
@@ -1297,7 +1297,7 @@ React Form doesn't dictate how you handle i18n. Store translations in the `meta`
 
 ### Reporting Vulnerabilities
 
-If you discover a security vulnerability, please email **security@React Form.dev** directly. Do not open a public issue.
+If you discover a security vulnerability, please email **security@React Form Atlas.dev** directly. Do not open a public issue.
 
 We take security seriously and will respond within 48 hours.
 
@@ -1365,7 +1365,7 @@ Having trouble? We're here to help!
 - 📖 **[Documentation](https://react-form.dev/docs)** — Comprehensive guides and API reference
 - 💬 **[Discord Community](https://discord.gg/react-form)** — Chat with the community
 - 🐛 **[Issue Tracker](https://github.com/Mehulbirare/react-form/issues)** — Report bugs or request features
-- 📧 **[Email Support](mailto:support@React Form.dev)** — Direct support for sponsors
+- 📧 **[Email Support](mailto:support@React Form Atlas.dev)** — Direct support for sponsors
 - 💼 **[Enterprise](https://react-form.dev/enterprise)** — Custom solutions and training
 
 ---
@@ -1393,9 +1393,9 @@ Having trouble? We're here to help!
 
 ### Built with ❤️ by [Mehul Birare](https://github.com/Mehulbirare)
 
-**If React Form helps you build better forms, consider giving it a ⭐️!**
+**If React Form Atlas helps you build better forms, consider giving it a ⭐️!**
 
-[⬆ Back to Top](#-React Form)
+[⬆ Back to Top](#-React Form Atlas)
 
 </div>
 

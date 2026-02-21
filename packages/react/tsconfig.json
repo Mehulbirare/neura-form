@@ -2,8 +2,14 @@
     "extends": "../core/tsconfig.json",
     "compilerOptions": {
         "jsx": "react",
-        "rootDir": "./src",
-        "outDir": "./dist"
+        "rootDir": "..",
+        "outDir": "./dist",
+        "baseUrl": ".",
+        "paths": {
+            "react-form-atlas-engine": [
+                "../core/src/index.ts"
+            ]
+        }
     },
     "include": [
         "src/**/*"
@@ -15,6 +21,3 @@
         "**/*.test.tsx"
     ]
 }
-
-
-

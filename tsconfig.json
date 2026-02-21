@@ -19,13 +19,13 @@
         "jsx": "react",
         "baseUrl": ".",
         "paths": {
-            "react-form-engine": [
+            "react-form-atlas-engine": [
                 "packages/core/src/index.ts"
             ],
-            "react-form-bridge": [
+            "react-form-atlas": [
                 "packages/react/src/index.ts"
             ],
-            "react-form-visualizer": [
+            "react-form-atlas-visualizer": [
                 "packages/visualizer/src/index.ts"
             ]
         }

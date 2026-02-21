@@ -1,13 +1,13 @@
-# Contributing to React Form
+# Contributing to React Form Atlas
 
-Thank you for your interest in contributing to React Form! 🎉
+Thank you for your interest in contributing to React Form Atlas! 🎉
 
 ## Development Setup
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/React Form.git
-   cd React Form
+   git clone https://github.com/yourusername/React Form Atlas.git
+   cd React Form Atlas
    ```
 
 2. **Install dependencies**
@@ -28,7 +28,7 @@ Thank you for your interest in contributing to React Form! 🎉
 ## Project Structure
 
 ```
-React Form/
+React Form Atlas/
 ├── packages/
 │   ├── core/           # Framework-agnostic engine
 │   ├── react/          # React hooks and components

@@ -1,6 +1,6 @@
 import React from 'react';
-import { useReactForm } from 'react-form-bridge';
-import type { FormSchema } from 'react-form-engine';
+import { useReactForm } from 'react-form-atlas';
+import type { FormSchema } from 'react-form-atlas-engine';
 
 // Import your schema
 import onboardingSchema from './onboarding-schema.json';

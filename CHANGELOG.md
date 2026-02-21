@@ -8,10 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.1.0] - 2026-02-21
 
 ### Fixed
-- Fixed internal package imports in `react-form-bridge` and `react-form-visualizer` to use package names instead of relative paths.
+- Fixed internal package imports in `react-form-atlas` and `react-form-atlas-visualizer` to use package names instead of relative paths.
 - Resolved TypeScript errors in onboarding schema by removing invalid null values.
 - Fixed implicit any types in core engine tests.
-- Renamed visualizer binary to `react-form-visualizer` (kebab-case) for better CLI compatibility.
+- Renamed visualizer binary to `react-form-atlas-visualizer` (kebab-case) for better CLI compatibility.
 
 ### Added
 - Root `tsconfig.json` for better monorepo type resolution.
@@ -20,17 +20,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2026-02-15
 
 ### Added
-- Initial release of React Form
-- `react-form-engine` - Framework-agnostic form engine
+- Initial release of React Form Atlas
+- `react-form-atlas-engine` - Framework-agnostic form engine
   - State machine-based form navigation
   - Auto-save with IndexedDB/localStorage
   - Predictive validation
   - Smart progress calculation
   - Event system for tracking
-- `react-form-bridge` - React integration
+- `react-form-atlas` - React integration
   - `useReactForm` hook
   - TypeScript support
-- `react-form-visualizer` - Schema visualization
+- `react-form-atlas-visualizer` - Schema visualization
   - CLI tool for generating flowcharts
   - Mermaid diagram generation
   - Interactive HTML output
@@ -46,6 +46,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Accessibility**: Built-in ARIA labels and keyboard navigation
 - **Analytics Ready**: Hooks for tracking user behavior
 
-[1.0.0]: https://github.com/yourusername/React Form/releases/tag/v1.0.0
+[1.0.0]: https://github.com/yourusername/React Form Atlas/releases/tag/v1.0.0
 
 

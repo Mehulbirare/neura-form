@@ -1,10 +1,10 @@
 # Core Concepts
 
-## What is React Form?
+## What is React Form Atlas?
 
-React Form is a **graph-based form engine** that treats your form as a Directed Acyclic Graph (DAG) instead of a linear array of steps. This fundamental shift eliminates "condition hell" and makes complex branching logic declarative and maintainable.
+React Form Atlas is a **graph-based form engine** that treats your form as a Directed Acyclic Graph (DAG) instead of a linear array of steps. This fundamental shift eliminates "condition hell" and makes complex branching logic declarative and maintainable.
 
-## Traditional Forms vs. React Form
+## Traditional Forms vs. React Form Atlas
 
 ### Traditional Approach
 ```javascript
@@ -26,7 +26,7 @@ function nextStep() {
 }
 ```
 
-### React Form Approach
+### React Form Atlas Approach
 ```javascript
 // Declarative graph schema
 const schema = {
@@ -112,7 +112,7 @@ The **context** is the shared data store for your form. It accumulates data as u
 ```
 
 ### 4. Dynamic Pathing
-Unlike traditional forms where all steps are predetermined, React Form calculates the path **dynamically** based on user input.
+Unlike traditional forms where all steps are predetermined, React Form Atlas calculates the path **dynamically** based on user input.
 
 **Example**: If a user selects "Individual" instead of "Business", the "Tax Info" step is automatically removed from their journey.
 
@@ -130,13 +130,13 @@ Each state can have a **weight** that represents its complexity or importance. T
 If a user chooses the "Individual" path (weight 2) instead of "Business" (weight 3), the progress bar adjusts to show they're closer to completion.
 
 ### 6. Draft-Lock (Auto-Save)
-React Form automatically persists state to **IndexedDB** (with localStorage fallback). Users can:
+React Form Atlas automatically persists state to **IndexedDB** (with localStorage fallback). Users can:
 - Close the browser and resume later
 - Refresh the page without losing progress
 - Switch devices (if you sync to a backend)
 
 ### 7. Predictive Validation
-Instead of validating only on submit, React Form validates the **entire path**. If a user enters data that makes a future step impossible, they're alerted immediately.
+Instead of validating only on submit, React Form Atlas validates the **entire path**. If a user enters data that makes a future step impossible, they're alerted immediately.
 
 **Example**: If a user enters a birth date that makes them under 18, and a future step requires 18+, they're warned before wasting time on intermediate steps.
 
@@ -150,13 +150,13 @@ Instead of validating only on submit, React Form validates the **entire path**. 
                   │
                   ▼
 ┌─────────────────────────────────────────┐
-│       react-form-bridge (optional)       │
+│       react-form-atlas (optional)       │
 │         useReactForm() hook             │
 └─────────────────┬───────────────────────┘
                   │
                   ▼
 ┌─────────────────────────────────────────┐
-│          react-form-engine                │
+│          react-form-atlas-engine                │
 │                                         │
 │  ┌─────────────────────────────────┐   │
 │  │   FormEngine               │   │
@@ -170,7 +170,7 @@ Instead of validating only on submit, React Form validates the **entire path**. 
 └─────────────────────────────────────────┘
 ```
 
-## When to Use React Form
+## When to Use React Form Atlas
 
 ✅ **Perfect for:**
 - Multi-step onboarding flows

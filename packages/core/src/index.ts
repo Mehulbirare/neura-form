@@ -1,5 +1,5 @@
 /**
- * react-form-engine - Framework-agnostic graph-based form engine
+ * react-form-atlas-engine - Framework-agnostic graph-based form engine
  * 
  * Eliminate "condition hell" in complex multi-step forms
  */

@@ -1,5 +1,5 @@
 /**
- * Core types for React Form
+ * Core types for React Form Atlas
  */
 export type TransitionEvent = string;
 export interface FormState {

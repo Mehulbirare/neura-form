@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { FormEngine, type FormEngineOptions, type FormContext, type StepChangeEvent } from 'react-form-engine';
+import { FormEngine, type FormEngineOptions, type FormContext, type StepChangeEvent } from 'react-form-atlas-engine';
 
 export interface UseReactFormOptions extends FormEngineOptions {
     resume?: boolean;
@@ -20,7 +20,7 @@ export interface UseReactFormReturn {
 }
 
 /**
- * React hook for React Form
+ * React hook for React Form Atlas
  * 
  * @example
  * ```tsx

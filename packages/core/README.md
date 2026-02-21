@@ -1,6 +1,6 @@
-# react-form-engine
+# react-form-atlas-engine
 
-[![npm version](https://img.shields.io/npm/v/react-form-engine.svg?style=flat-square)](https://www.npmjs.com/package/react-form-engine)
+[![npm version](https://img.shields.io/npm/v/react-form-atlas-engine.svg?style=flat-square)](https://www.npmjs.com/package/react-form-atlas-engine)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg?style=flat-square)](https://www.typescriptlang.org/)
 
@@ -8,7 +8,7 @@
 
 ## 🚀 Why Graph-Based?
 
-Traditional linear forms (`[Step1, Step2, Step3]`) break when logic gets complex. **React Form** treats your form as a **Directed Acyclic Graph (DAG)**.
+Traditional linear forms (`[Step1, Step2, Step3]`) break when logic gets complex. **React Form Atlas** treats your form as a **Directed Acyclic Graph (DAG)**.
 
 ```mermaid
 graph LR
@@ -22,7 +22,7 @@ graph LR
   style Complete fill:#9f9,stroke:#333,stroke-width:2px
 ```
 
-| Feature | ❌ Linear Forms | ✅ React Form (Graph) |
+| Feature | ❌ Linear Forms | ✅ React Form Atlas (Graph) |
 | :--- | :--- | :--- |
 | **Logic** | Nested `if/else` spaghetti | Declarative Edges |
 | **Navigation** | Hardcoded implementation | Auto-computed Paths |
@@ -32,15 +32,15 @@ graph LR
 ## 📦 Installation
 
 ```bash
-npm install react-form-engine
+npm install react-form-atlas-engine
 ```
 
 ## ⚡ Quick Start
 
-[![Try on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/node?file=index.js&dependencies=react-form-engine)
+[![Try on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/node?file=index.js&dependencies=react-form-atlas-engine)
 
 ```javascript
-import { FormEngine } from 'react-form-engine';
+import { FormEngine } from 'react-form-atlas-engine';
 
 // 1. Define your map (Schema)
 const schema = {

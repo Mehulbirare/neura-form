@@ -1,10 +1,10 @@
 /**
  * Vanilla JavaScript Example
  * 
- * This example shows how to use React Form without any framework
+ * This example shows how to use React Form Atlas without any framework
  */
 
-const { FormEngine } = require('react-form-engine');
+const { FormEngine } = require('react-form-atlas-engine');
 
 // Define your form schema
 const schema = {

@@ -1,6 +1,6 @@
-# Getting Started with React Form
+# Getting Started with React Form Atlas
 
-Welcome to React Form! This guide will help you get started with building graph-based forms that eliminate "condition hell."
+Welcome to React Form Atlas! This guide will help you get started with building graph-based forms that eliminate "condition hell."
 
 ## What You'll Build
 
@@ -15,13 +15,13 @@ By the end of this guide, you'll have a working multi-step form with:
 ### For React Projects
 
 ```bash
-npm install react-form-engine react-form-bridge
+npm install react-form-atlas-engine react-form-atlas
 ```
 
 ### For Vanilla JavaScript
 
 ```bash
-npm install react-form-engine
+npm install react-form-atlas-engine
 ```
 
 ## Your First Form
@@ -71,7 +71,7 @@ export const onboardingSchema = {
 ### Step 2: Build Your Form (React)
 
 ```tsx
-import { useReactForm } from 'react-form-bridge';
+import { useReactForm } from 'react-form-atlas';
 import { onboardingSchema } from './schema';
 
 function OnboardingForm() {
@@ -286,7 +286,7 @@ ageCheck: {
 ### Visualize Your Schema
 
 ```bash
-npx react-form-visualizer schema.json -o visualization.html
+npx react-form-atlas-visualizer schema.json -o visualization.html
 ```
 
 ## Resources
@@ -299,7 +299,7 @@ npx react-form-visualizer schema.json -o visualization.html
 ## Need Help?
 
 - 📖 [Documentation](../README.md)
-- 💬 [GitHub Issues](https://github.com/yourusername/React Form/issues)
+- 💬 [GitHub Issues](https://github.com/yourusername/React Form Atlas/issues)
 - 🐦 [Twitter](https://twitter.com/yourusername)
 
 ---

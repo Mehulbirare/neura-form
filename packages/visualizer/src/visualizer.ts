@@ -1,7 +1,7 @@
-import type { FormSchema } from 'react-form-engine';
+import type { FormSchema } from 'react-form-atlas-engine';
 
 /**
- * Generate a Mermaid flowchart from a React Form schema
+ * Generate a Mermaid flowchart from a React Form Atlas schema
  */
 export class SchemaVisualizer {
   /**
@@ -47,7 +47,7 @@ export class SchemaVisualizer {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>React Form Schema Visualizer</title>
+  <title>React Form Atlas Schema Visualizer</title>
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <style>
     * {
@@ -146,7 +146,7 @@ export class SchemaVisualizer {
 </head>
 <body>
   <div class="container">
-    <h1>🧠 React Form Schema Visualizer</h1>
+    <h1>🧠 React Form Atlas Schema Visualizer</h1>
     
     <div class="schema-info">
       <h2>Schema: ${schema.id}</h2>

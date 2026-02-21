@@ -1,11 +1,11 @@
-# React Form - Project Summary
+# React Form Atlas - Project Summary
 
 ## 📦 Package Structure
 
 ```
-React Form/
+React Form Atlas/
 ├── packages/
-│   ├── core/              # react-form-engine - Framework-agnostic engine
+│   ├── core/              # react-form-atlas-engine - Framework-agnostic engine
 │   │   ├── src/
 │   │   │   ├── engine.ts           # Main state machine
 │   │   │   ├── storage.ts          # Auto-save implementation
@@ -18,7 +18,7 @@ React Form/
 │   │   ├── tsconfig.json
 │   │   └── README.md
 │   │
-│   ├── react/             # react-form-bridge - React integration
+│   ├── react/             # react-form-atlas - React integration
 │   │   ├── src/
 │   │   │   ├── useReactForm.ts     # React hook
 │   │   │   └── index.ts            # Public API
@@ -26,7 +26,7 @@ React Form/
 │   │   ├── tsconfig.json
 │   │   └── README.md
 │   │
-│   └── visualizer/        # react-form-visualizer - Schema visualization
+│   └── visualizer/        # react-form-atlas-visualizer - Schema visualization
 │       ├── src/
 │       │   ├── visualizer.ts       # Mermaid generator
 │       │   ├── cli.ts              # CLI tool
@@ -99,15 +99,15 @@ React Form/
 
 ## 📊 Package Sizes (Estimated)
 
-- `react-form-engine`: ~8KB gzipped
-- `react-form-bridge`: ~3KB gzipped
-- `react-form-visualizer`: ~5KB gzipped
+- `react-form-atlas-engine`: ~8KB gzipped
+- `react-form-atlas`: ~3KB gzipped
+- `react-form-atlas-visualizer`: ~5KB gzipped
 
 ## 🚀 Next Steps for Publishing
 
 1. **Install Dependencies**
    ```bash
-   cd c:\Users\mehul\Projects\React Form
+   cd c:\Users\mehul\Projects\React Form Atlas
    npm install
    ```
 
@@ -142,7 +142,7 @@ React Form/
 
 ## 🔑 Key Differentiators
 
-| Feature | Traditional Forms | React Form |
+| Feature | Traditional Forms | React Form Atlas |
 |---------|------------------|-----------|
 | Structure | Array of steps | Graph (DAG) |
 | Logic | Imperative if/else | Declarative schema |
@@ -184,7 +184,7 @@ MIT - See `LICENSE` file
 **Tagline**: "Eliminate Condition Hell in Complex Forms"
 
 **Elevator Pitch**:
-"React Form is a graph-based form engine that treats your form like a map. Instead of writing dozens of if/else statements, you define a simple JSON schema, and React Form handles the routing, progress calculation, auto-save, and validation automatically."
+"React Form Atlas is a graph-based form engine that treats your form like a map. Instead of writing dozens of if/else statements, you define a simple JSON schema, and React Form Atlas handles the routing, progress calculation, auto-save, and validation automatically."
 
 **Key Benefits**:
 1. **10x Less Code**: Replace hundreds of lines of conditional logic with a declarative schema

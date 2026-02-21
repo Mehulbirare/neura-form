@@ -1,30 +1,30 @@
 #!/usr/bin/env node
 
 /**
- * CLI tool for visualizing React Form schemas
+ * CLI tool for visualizing React Form Atlas schemas
  */
 
 import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 import { SchemaVisualizer } from './visualizer';
-import type { FormSchema } from 'react-form-engine';
+import type { FormSchema } from 'react-form-atlas-engine';
 
 const args = process.argv.slice(2);
 
 function printHelp() {
   console.log(`
-🧠 React Form Visualizer
+🧠 React Form Atlas Visualizer
 
 Usage:
-  react-form-visualizer <schema-file> [options]
+  react-form-atlas-visualizer <schema-file> [options]
 
 Options:
   -o, --output <file>    Output HTML file (default: schema-visualization.html)
   -h, --help            Show this help message
 
 Examples:
-  react-form-visualizer schema.json
-  react-form-visualizer schema.json -o my-form.html
+  react-form-atlas-visualizer schema.json
+  react-form-atlas-visualizer schema.json -o my-form.html
   `);
 }
 

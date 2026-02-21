@@ -1,7 +1,7 @@
 {
-    "name": "react-form-bridge",
+    "name": "react-form-atlas",
     "version": "1.1.0",
-    "description": "React hooks and components for React Form",
+    "description": "React hooks and components for React Form Atlas",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
@@ -28,12 +28,12 @@
         "react",
         "forms",
         "hooks",
-        "React Form"
+        "React Form Atlas"
     ],
     "author": "Mehul Birare",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Mehulbirare/react-form.git",
+        "url": "https://github.com/Mehulbirare/react-form-atlas.git",
         "directory": "packages/react"
     },
     "license": "MIT",
@@ -41,7 +41,7 @@
         "react": "^18.0.0"
     },
     "dependencies": {
-        "react-form-engine": "^1.1.0"
+        "react-form-atlas-engine": "^1.1.0"
     },
     "devDependencies": {
         "@types/react": "^18.2.48",
