@@ -122,6 +122,7 @@ If you want to use scoped packages (e.g., `@yourname/react-form-atlas-core`):
 
 Create `.github/workflows/publish.yml`:
 
+{% raw %}
 ```yaml
 name: Publish to NPM
 
@@ -145,6 +146,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 ```
+{% endraw %}
 
 ## Post-Publish
 
